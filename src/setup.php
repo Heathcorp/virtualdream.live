@@ -113,6 +113,12 @@ if(count($webrings) > 0) {
     </div>
     <!-- /web ring -->
     ";
+} else {
+    // No webrings? Show the button instead :D
+    echo "
+    <div id='thebutton-container' style='position:fixed;bottom:25px;right:25px;margin:0;'>
+        <iframe src='https://thebutton.lostpixels.org/embed' style='border-width:0px;width: 224px;height: 120px;'></iframe>
+    </div>";
 }
 
 ?>
